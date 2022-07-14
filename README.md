@@ -5,7 +5,7 @@ Copy env.template to .env. Fill in variables.
 # deploy 
 
 ```
-npx hardhat deploy --deploy ./deploy/001_token/  --network ropsten --tags Token
+npx hardhat deploy --deploy ./deploy/001_tokenUpgradable/  --network ropsten --tags TokenUpgradable
 ```
 
 # verify
