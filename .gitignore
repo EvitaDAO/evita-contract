@@ -1,0 +1,6 @@
+.env
+node_modules/
+cache/
+deployments/local
+networks/local
+.idea
