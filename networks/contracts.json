@@ -1,8 +1,12 @@
 {
   "3": {
+    "Evita": {
+      "address": "0xBcf7Cac321c3805262096b1D0d281489017E4dAb",
+      "blockNumber": 12589377
+    },
     "EvitaUpgradable": {
-      "address": "0x20E4a6F14D326a018DeFfe6712CFba316d071b7c",
-      "blockNumber": 12589180
+      "address": "0xb0Fb0b97edb2647c80155E1B8Ac0d61F1Fd83615",
+      "blockNumber": 12589382
     }
   }
 }
