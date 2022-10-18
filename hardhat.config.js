@@ -40,21 +40,12 @@ module.exports = {
         'ETH_MAIN_DEPLOYER',
       ),
     },
-    ropsten: {
-      url: process.env.ROPSTEN_NODE || 'http://127.0.0.1:8545',
-      chainId: 3,
-      gasPrice: 10_000_000_000,
+    goerli: {
+      url: process.env.GOERLI_NODE || 'http://127.0.0.1:8545',
+      chainId: 5,
+      gasPrice: 2_000_000_000,
       blockGasLimit: 6_000_000,
-      accounts: accounts('ROPSTEN_DEPLOYER', 'ROPSTEN_OTHER'),
-    },
-    rinkeby: {
-      url: process.env.ETH_RINKEBY_NODE || 'http://127.0.0.1:8545',
-      chainId: 4,
-      gasPrice: 25_000_000_000,
-      blockGasLimit: 6_000_000,
-      accounts: accounts(
-        'ETH_RINKEBY_DEPLOYER',
-      ),
+      accounts: accounts('GOERLI_DEPLOYER', 'GOERLI_OTHER'),
     },
     bsc: {
       url: process.env.BSC_NODE || 'http://127.0.0.1:8545',
@@ -139,7 +130,7 @@ module.exports = {
   namedAccounts: {
     deployer: {
       '': 0,
-      'ropsten': 0,
+      'goerli': 0,
     },
   },
   etherscan: {
